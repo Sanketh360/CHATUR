@@ -1,0 +1,127 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Uncomment if you don't want VS Code files in git
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.packages
+pubspec.lock
+
+# Build output
+build/
+android/app/build/
+
+# Platform build folders
+.android/
+.ios/
+linux/
+macos/
+windows/
+web/
+
+# Auto-generated plugin registrants
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+firebase.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys and Secrets
+**/secrets/
+**/*_secret.dart
+**/*_keys.dart
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Coverage
+coverage/
+*.lcov
+
+# Test related
+test/.test_coverage.dart
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package files
+*.apk
+*.aab
+*.ipa
+*.app
+
+# Local configuration
+local.properties
+android/local.properties
+
+# FVM Version Management
+.fvm/
+
+# Exclude large media files (uncomment if needed)
+# assets/videos/
+# assets/images/onboarding/*.jpg
